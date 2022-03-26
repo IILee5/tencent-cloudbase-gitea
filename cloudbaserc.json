@@ -14,7 +14,7 @@
           "uploadType": "package",
           "containerPort": 3000,
           "volumeMounts": {
-            "/data": "gitea-cfs"
+            "/opt/data": "gitea-cfs"
           }
         }
       }
